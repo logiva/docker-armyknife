@@ -18,6 +18,7 @@ pv \
 git \
 vim \
 pwgen \
+language-pack-en \
 && rm -rf /var/lib/apt/lists/*
 
 ADD default-entrypoint.sh /default-entrypoint.sh
